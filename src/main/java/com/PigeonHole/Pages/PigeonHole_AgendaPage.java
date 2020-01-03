@@ -104,7 +104,7 @@ public class PigeonHole_AgendaPage extends GenericMethods {
 
 	@FindBy(how = How.XPATH, using = "//a[text()=\"Projector Panel\"]")
 	public static WebElement projectorPanelButton;
-
+	
 	public void clickEventEdit() {
 		eventEditButton.click();
 	}

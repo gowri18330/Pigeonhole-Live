@@ -1,96 +1,673 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="20" passed="20">
+<testng-results skipped="0" failed="9" ignored="0" total="20" passed="11">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="110320" started-at="2020-01-03T09:36:04Z" finished-at="2020-01-03T09:37:54Z">
+  <suite name="Default suite" duration-ms="284804" started-at="2020-01-03T20:44:30 IST" finished-at="2020-01-03T20:49:15 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="110320" started-at="2020-01-03T09:36:04Z" finished-at="2020-01-03T09:37:54Z">
+    <test name="Default test" duration-ms="284804" started-at="2020-01-03T20:44:30 IST" finished-at="2020-01-03T20:49:15 IST">
       <class name="com.PigeonHole.RegressionScripts.PigeonHole_QA_Test">
-        <test-method status="PASS" signature="init()[pri:0, instance:com.PigeonHole.RegressionScripts.PigeonHole_QA_Test@4a183d02]" name="init" is-config="true" duration-ms="17217" started-at="2020-01-03T09:36:04Z" finished-at="2020-01-03T09:36:21Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.PigeonHole.RegressionScripts.PigeonHole_QA_Test@2d0bfb24]" name="init" is-config="true" duration-ms="19091" started-at="2020-01-03T20:44:30 IST" finished-at="2020-01-03T20:44:49 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="m1()[pri:1, instance:com.PigeonHole.RegressionScripts.PigeonHole_QA_Test@4a183d02]" name="m1" duration-ms="6734" started-at="2020-01-03T09:36:21Z" finished-at="2020-01-03T09:36:28Z">
+        <test-method status="PASS" signature="clickAsiaLeadershipConference()[pri:1, instance:com.PigeonHole.RegressionScripts.PigeonHole_QA_Test@2d0bfb24]" name="clickAsiaLeadershipConference" duration-ms="6885" started-at="2020-01-03T20:44:49 IST" finished-at="2020-01-03T20:44:56 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- m1 -->
-        <test-method status="PASS" signature="m2()[pri:2, instance:com.PigeonHole.RegressionScripts.PigeonHole_QA_Test@4a183d02]" name="m2" duration-ms="11299" started-at="2020-01-03T09:36:28Z" finished-at="2020-01-03T09:36:39Z">
+        </test-method> <!-- clickAsiaLeadershipConference -->
+        <test-method status="PASS" signature="QuestionAndAnswer()[pri:2, instance:com.PigeonHole.RegressionScripts.PigeonHole_QA_Test@2d0bfb24]" name="QuestionAndAnswer" duration-ms="11213" started-at="2020-01-03T20:44:56 IST" finished-at="2020-01-03T20:45:07 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- m2 -->
-        <test-method status="PASS" signature="m3()[pri:3, instance:com.PigeonHole.RegressionScripts.PigeonHole_QA_Test@4a183d02]" name="m3" duration-ms="10438" started-at="2020-01-03T09:36:39Z" finished-at="2020-01-03T09:36:50Z">
+        </test-method> <!-- QuestionAndAnswer -->
+        <test-method status="PASS" signature="AdminPanel()[pri:3, instance:com.PigeonHole.RegressionScripts.PigeonHole_QA_Test@2d0bfb24]" name="AdminPanel" duration-ms="10381" started-at="2020-01-03T20:45:07 IST" finished-at="2020-01-03T20:45:18 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- m3 -->
-        <test-method status="PASS" signature="m4()[pri:4, instance:com.PigeonHole.RegressionScripts.PigeonHole_QA_Test@4a183d02]" name="m4" duration-ms="10330" started-at="2020-01-03T09:36:50Z" finished-at="2020-01-03T09:37:00Z">
+        </test-method> <!-- AdminPanel -->
+        <test-method status="PASS" signature="ProjectorPanel()[pri:4, instance:com.PigeonHole.RegressionScripts.PigeonHole_QA_Test@2d0bfb24]" name="ProjectorPanel" duration-ms="10340" started-at="2020-01-03T20:45:18 IST" finished-at="2020-01-03T20:45:28 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- m4 -->
-        <test-method status="PASS" signature="m5()[pri:5, instance:com.PigeonHole.RegressionScripts.PigeonHole_QA_Test@4a183d02]" name="m5" duration-ms="4287" started-at="2020-01-03T09:37:00Z" finished-at="2020-01-03T09:37:04Z">
+        </test-method> <!-- ProjectorPanel -->
+        <test-method status="PASS" signature="checkQuestionsFiltering()[pri:5, instance:com.PigeonHole.RegressionScripts.PigeonHole_QA_Test@2d0bfb24]" name="checkQuestionsFiltering" duration-ms="12785" started-at="2020-01-03T20:45:28 IST" finished-at="2020-01-03T20:45:41 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- m5 -->
-        <test-method status="PASS" signature="m6()[pri:6, instance:com.PigeonHole.RegressionScripts.PigeonHole_QA_Test@4a183d02]" name="m6" duration-ms="15533" started-at="2020-01-03T09:37:04Z" finished-at="2020-01-03T09:37:20Z">
+        </test-method> <!-- checkQuestionsFiltering -->
+        <test-method status="FAIL" signature="QuestionFiltering()[pri:6, instance:com.PigeonHole.RegressionScripts.PigeonHole_QA_Test@2d0bfb24]" name="QuestionFiltering" duration-ms="4166" started-at="2020-01-03T20:45:41 IST" finished-at="2020-01-03T20:45:45 IST">
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
+            <message>
+              <![CDATA[stale element reference: element is not attached to the page document
+  (Session info: chrome=79.0.3945.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'OJAS-DD57', ip: '192.168.2.18', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.88, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\mgowri\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:50539}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 66a28889ef605d6c87583bc1fc2de70b]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=79.0.3945.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'OJAS-DD57', ip: '192.168.2.18', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.88, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\mgowri\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:50539}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 66a28889ef605d6c87583bc1fc2de70b
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:618)
+at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:639)
+at com.PigeonHole.Pages.PigeonHole_AudienceWebAppPage.clickQuestionInput(PigeonHole_AudienceWebAppPage.java:250)
+at com.PigeonHole.RegressionScripts.PigeonHole_QA_Test.QuestionFiltering(PigeonHole_QA_Test.java:228)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- m6 -->
-        <test-method status="PASS" signature="m7()[pri:7, instance:com.PigeonHole.RegressionScripts.PigeonHole_QA_Test@4a183d02]" name="m7" duration-ms="2125" started-at="2020-01-03T09:37:20Z" finished-at="2020-01-03T09:37:22Z">
+        </test-method> <!-- QuestionFiltering -->
+        <test-method status="PASS" signature="shouldNotSeeTheQuestionInProjectorPanel()[pri:7, instance:com.PigeonHole.RegressionScripts.PigeonHole_QA_Test@2d0bfb24]" name="shouldNotSeeTheQuestionInProjectorPanel" duration-ms="2123" started-at="2020-01-03T20:45:45 IST" finished-at="2020-01-03T20:45:47 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- m7 -->
-        <test-method status="PASS" signature="m8()[pri:8, instance:com.PigeonHole.RegressionScripts.PigeonHole_QA_Test@4a183d02]" name="m8" duration-ms="6613" started-at="2020-01-03T09:37:22Z" finished-at="2020-01-03T09:37:29Z">
+        </test-method> <!-- shouldNotSeeTheQuestionInProjectorPanel -->
+        <test-method status="FAIL" signature="questionPendingApproval_GreenText()[pri:8, instance:com.PigeonHole.RegressionScripts.PigeonHole_QA_Test@2d0bfb24]" name="questionPendingApproval_GreenText" duration-ms="2092" started-at="2020-01-03T20:45:47 IST" finished-at="2020-01-03T20:45:49 IST">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),"1 question pending approval")]"}
+  (Session info: chrome=79.0.3945.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'OJAS-DD57', ip: '192.168.2.18', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.88, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\mgowri\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:50539}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 66a28889ef605d6c87583bc1fc2de70b
+*** Element info: {Using=xpath, value=//span[contains(text(),"1 question pending approval")]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),"1 question pending approval")]"}
+  (Session info: chrome=79.0.3945.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'OJAS-DD57', ip: '192.168.2.18', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.88, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\mgowri\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:50539}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 66a28889ef605d6c87583bc1fc2de70b
+*** Element info: {Using=xpath, value=//span[contains(text(),"1 question pending approval")]}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy9.click(Unknown Source)
+at com.PigeonHole.Pages.PigeonHole_AdminPanelPage.clickQuestionPending(PigeonHole_AdminPanelPage.java:317)
+at com.PigeonHole.RegressionScripts.PigeonHole_QA_Test.questionPendingApproval_GreenText(PigeonHole_QA_Test.java:270)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- m8 -->
-        <test-method status="PASS" signature="m9()[pri:9, instance:com.PigeonHole.RegressionScripts.PigeonHole_QA_Test@4a183d02]" name="m9" duration-ms="2087" started-at="2020-01-03T09:37:29Z" finished-at="2020-01-03T09:37:31Z">
+        </test-method> <!-- questionPendingApproval_GreenText -->
+        <test-method status="FAIL" signature="shouldSeeTheQuestionInAWA()[pri:9, instance:com.PigeonHole.RegressionScripts.PigeonHole_QA_Test@2d0bfb24]" name="shouldSeeTheQuestionInAWA" duration-ms="2064" started-at="2020-01-03T20:45:49 IST" finished-at="2020-01-03T20:45:51 IST">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"(//div[@class="question-content allow-user-select"])[2]"}
+  (Session info: chrome=79.0.3945.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'OJAS-DD57', ip: '192.168.2.18', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.88, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\mgowri\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:50539}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 66a28889ef605d6c87583bc1fc2de70b
+*** Element info: {Using=xpath, value=(//div[@class="question-content allow-user-select"])[2]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//div[@class="question-content allow-user-select"])[2]"}
+  (Session info: chrome=79.0.3945.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'OJAS-DD57', ip: '192.168.2.18', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.88, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\mgowri\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:50539}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 66a28889ef605d6c87583bc1fc2de70b
+*** Element info: {Using=xpath, value=(//div[@class="question-content allow-user-select"])[2]}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy9.getText(Unknown Source)
+at com.PigeonHole.RegressionScripts.PigeonHole_QA_Test.shouldSeeTheQuestionInAWA(PigeonHole_QA_Test.java:303)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- m9 -->
-        <test-method status="PASS" signature="m10()[pri:10, instance:com.PigeonHole.RegressionScripts.PigeonHole_QA_Test@4a183d02]" name="m10" duration-ms="2142" started-at="2020-01-03T09:37:31Z" finished-at="2020-01-03T09:37:33Z">
+        </test-method> <!-- shouldSeeTheQuestionInAWA -->
+        <test-method status="FAIL" signature="inProjectorPanelShouldSeeTheQuestionYouHaveJustApproved()[pri:10, instance:com.PigeonHole.RegressionScripts.PigeonHole_QA_Test@2d0bfb24]" name="inProjectorPanelShouldSeeTheQuestionYouHaveJustApproved" duration-ms="2106" started-at="2020-01-03T20:45:51 IST" finished-at="2020-01-03T20:45:54 IST">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"(//div[@class="qna-content"])[2]"}
+  (Session info: chrome=79.0.3945.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'OJAS-DD57', ip: '192.168.2.18', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.88, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\mgowri\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:50539}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 66a28889ef605d6c87583bc1fc2de70b
+*** Element info: {Using=xpath, value=(//div[@class="qna-content"])[2]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//div[@class="qna-content"])[2]"}
+  (Session info: chrome=79.0.3945.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'OJAS-DD57', ip: '192.168.2.18', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.88, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\mgowri\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:50539}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 66a28889ef605d6c87583bc1fc2de70b
+*** Element info: {Using=xpath, value=(//div[@class="qna-content"])[2]}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy9.getText(Unknown Source)
+at com.PigeonHole.RegressionScripts.PigeonHole_QA_Test.inProjectorPanelShouldSeeTheQuestionYouHaveJustApproved(PigeonHole_QA_Test.java:317)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- m10 -->
-        <test-method status="PASS" signature="m11()[pri:11, instance:com.PigeonHole.RegressionScripts.PigeonHole_QA_Test@4a183d02]" name="m11" duration-ms="2165" started-at="2020-01-03T09:37:33Z" finished-at="2020-01-03T09:37:35Z">
+        </test-method> <!-- inProjectorPanelShouldSeeTheQuestionYouHaveJustApproved -->
+        <test-method status="PASS" signature="clickActive()[pri:11, instance:com.PigeonHole.RegressionScripts.PigeonHole_QA_Test@2d0bfb24]" name="clickActive" duration-ms="2169" started-at="2020-01-03T20:45:54 IST" finished-at="2020-01-03T20:45:56 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- m11 -->
-        <test-method status="PASS" signature="m12()[pri:12, instance:com.PigeonHole.RegressionScripts.PigeonHole_QA_Test@4a183d02]" name="m12" duration-ms="2128" started-at="2020-01-03T09:37:35Z" finished-at="2020-01-03T09:37:37Z">
+        </test-method> <!-- clickActive -->
+        <test-method status="FAIL" signature="shouldSeeTheQuestionInProjectorPanel()[pri:12, instance:com.PigeonHole.RegressionScripts.PigeonHole_QA_Test@2d0bfb24]" name="shouldSeeTheQuestionInProjectorPanel" duration-ms="2115" started-at="2020-01-03T20:45:56 IST" finished-at="2020-01-03T20:45:58 IST">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Obtained question did not match expected [Mariana Senger III] but found [Cristal Schiller DVM]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Obtained question did not match expected [Mariana Senger III] but found [Cristal Schiller DVM]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:575)
+at com.PigeonHole.RegressionScripts.PigeonHole_QA_Test.shouldSeeTheQuestionInProjectorPanel(PigeonHole_QA_Test.java:345)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- m12 -->
-        <test-method status="PASS" signature="m13()[pri:13, instance:com.PigeonHole.RegressionScripts.PigeonHole_QA_Test@4a183d02]" name="m13" duration-ms="2159" started-at="2020-01-03T09:37:37Z" finished-at="2020-01-03T09:37:39Z">
+        </test-method> <!-- shouldSeeTheQuestionInProjectorPanel -->
+        <test-method status="PASS" signature="clickAnswered()[pri:13, instance:com.PigeonHole.RegressionScripts.PigeonHole_QA_Test@2d0bfb24]" name="clickAnswered" duration-ms="2138" started-at="2020-01-03T20:45:58 IST" finished-at="2020-01-03T20:46:00 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- m13 -->
-        <test-method status="PASS" signature="m14()[pri:14, instance:com.PigeonHole.RegressionScripts.PigeonHole_QA_Test@4a183d02]" name="m14" duration-ms="2117" started-at="2020-01-03T09:37:39Z" finished-at="2020-01-03T09:37:41Z">
+        </test-method> <!-- clickAnswered -->
+        <test-method status="FAIL" signature="seeAnswered()[pri:14, instance:com.PigeonHole.RegressionScripts.PigeonHole_QA_Test@2d0bfb24]" name="seeAnswered" duration-ms="92382" started-at="2020-01-03T20:46:00 IST" finished-at="2020-01-03T20:47:32 IST">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: (//span[@class="answered"])[2]' (tried for 90 second(s) with 500 milliseconds interval)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: (//span[@class="answered"])[2]' (tried for 90 second(s) with 500 milliseconds interval)
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+at com.PigeonHole.FunctionalLibrary.GenericMethods.waitForElement(GenericMethods.java:91)
+at com.PigeonHole.RegressionScripts.PigeonHole_QA_Test.seeAnswered(PigeonHole_QA_Test.java:369)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//span[@class="answered"])[2]"}
+  (Session info: chrome=79.0.3945.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'OJAS-DD57', ip: '192.168.2.18', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.88, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\mgowri\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:50539}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 66a28889ef605d6c87583bc1fc2de70b
+*** Element info: {Using=xpath, value=(//span[@class="answered"])[2]}
+at sun.reflect.GeneratedConstructorAccessor19.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy9.isDisplayed(Unknown Source)
+at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
+at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+... 30 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- m14 -->
-        <test-method status="PASS" signature="m15()[pri:15, instance:com.PigeonHole.RegressionScripts.PigeonHole_QA_Test@4a183d02]" name="m15" duration-ms="2110" started-at="2020-01-03T09:37:41Z" finished-at="2020-01-03T09:37:43Z">
+        </test-method> <!-- seeAnswered -->
+        <test-method status="FAIL" signature="shouldNotSeeThisQuestionAnymore()[pri:15, instance:com.PigeonHole.RegressionScripts.PigeonHole_QA_Test@2d0bfb24]" name="shouldNotSeeThisQuestionAnymore" duration-ms="2103" started-at="2020-01-03T20:47:32 IST" finished-at="2020-01-03T20:47:34 IST">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":".qna-content"}
+  (Session info: chrome=79.0.3945.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'OJAS-DD57', ip: '192.168.2.18', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.88, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\mgowri\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:50539}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 66a28889ef605d6c87583bc1fc2de70b
+*** Element info: {Using=css selector, value=.qna-content}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".qna-content"}
+  (Session info: chrome=79.0.3945.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'OJAS-DD57', ip: '192.168.2.18', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.88, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\mgowri\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:50539}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 66a28889ef605d6c87583bc1fc2de70b
+*** Element info: {Using=css selector, value=.qna-content}
+at sun.reflect.GeneratedConstructorAccessor19.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
+at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy9.getText(Unknown Source)
+at com.PigeonHole.RegressionScripts.PigeonHole_QA_Test.shouldNotSeeThisQuestionAnymore(PigeonHole_QA_Test.java:384)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- m15 -->
-        <test-method status="PASS" signature="m16()[pri:16, instance:com.PigeonHole.RegressionScripts.PigeonHole_QA_Test@4a183d02]" name="m16" duration-ms="2149" started-at="2020-01-03T09:37:43Z" finished-at="2020-01-03T09:37:46Z">
+        </test-method> <!-- shouldNotSeeThisQuestionAnymore -->
+        <test-method status="PASS" signature="clickLoudSpeakerIcon()[pri:16, instance:com.PigeonHole.RegressionScripts.PigeonHole_QA_Test@2d0bfb24]" name="clickLoudSpeakerIcon" duration-ms="2151" started-at="2020-01-03T20:47:34 IST" finished-at="2020-01-03T20:47:37 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- m16 -->
-        <test-method status="PASS" signature="m17()[pri:17, instance:com.PigeonHole.RegressionScripts.PigeonHole_QA_Test@4a183d02]" name="m17" duration-ms="726" started-at="2020-01-03T09:37:46Z" finished-at="2020-01-03T09:37:46Z">
+        </test-method> <!-- clickLoudSpeakerIcon -->
+        <test-method status="PASS" signature="clickSaveForLater()[pri:17, instance:com.PigeonHole.RegressionScripts.PigeonHole_QA_Test@2d0bfb24]" name="clickSaveForLater" duration-ms="749" started-at="2020-01-03T20:47:37 IST" finished-at="2020-01-03T20:47:37 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- m17 -->
-        <test-method status="PASS" signature="m18()[pri:18, instance:com.PigeonHole.RegressionScripts.PigeonHole_QA_Test@4a183d02]" name="m18" duration-ms="2779" started-at="2020-01-03T09:37:46Z" finished-at="2020-01-03T09:37:49Z">
+        </test-method> <!-- clickSaveForLater -->
+        <test-method status="PASS" signature="clickSendAndConfirm()[pri:18, instance:com.PigeonHole.RegressionScripts.PigeonHole_QA_Test@2d0bfb24]" name="clickSendAndConfirm" duration-ms="3319" started-at="2020-01-03T20:47:37 IST" finished-at="2020-01-03T20:47:41 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- m18 -->
-        <test-method status="PASS" signature="m19()[pri:19, instance:com.PigeonHole.RegressionScripts.PigeonHole_QA_Test@4a183d02]" name="m19" duration-ms="2162" started-at="2020-01-03T09:37:49Z" finished-at="2020-01-03T09:37:51Z">
+        </test-method> <!-- clickSendAndConfirm -->
+        <test-method status="FAIL" signature="clickClose()[pri:19, instance:com.PigeonHole.RegressionScripts.PigeonHole_QA_Test@2d0bfb24]" name="clickClose" duration-ms="92233" started-at="2020-01-03T20:47:41 IST" finished-at="2020-01-03T20:49:13 IST">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: .announcement-modal-text' (tried for 90 second(s) with 500 milliseconds interval)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: .announcement-modal-text' (tried for 90 second(s) with 500 milliseconds interval)
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+at com.PigeonHole.FunctionalLibrary.GenericMethods.waitForElement(GenericMethods.java:91)
+at com.PigeonHole.RegressionScripts.PigeonHole_QA_Test.clickClose(PigeonHole_QA_Test.java:449)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".announcement-modal-text"}
+  (Session info: chrome=79.0.3945.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'OJAS-DD57', ip: '192.168.2.18', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.88, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\mgowri\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:50539}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 66a28889ef605d6c87583bc1fc2de70b
+*** Element info: {Using=css selector, value=.announcement-modal-text}
+at sun.reflect.GeneratedConstructorAccessor19.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
+at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy9.isDisplayed(Unknown Source)
+at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
+at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+... 30 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- m19 -->
-        <test-method status="PASS" signature="m20()[pri:20, instance:com.PigeonHole.RegressionScripts.PigeonHole_QA_Test@4a183d02]" name="m20" duration-ms="2977" started-at="2020-01-03T09:37:51Z" finished-at="2020-01-03T09:37:54Z">
+        </test-method> <!-- clickClose -->
+        <test-method status="FAIL" signature="viewsAndClickAssertion()[pri:20, instance:com.PigeonHole.RegressionScripts.PigeonHole_QA_Test@2d0bfb24]" name="viewsAndClickAssertion" duration-ms="2130" started-at="2020-01-03T20:49:13 IST" finished-at="2020-01-03T20:49:15 IST">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Obtained view count did not match expected [1] but found [0]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Obtained view count did not match expected [1] but found [0]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:575)
+at com.PigeonHole.RegressionScripts.PigeonHole_QA_Test.viewsAndClickAssertion(PigeonHole_QA_Test.java:471)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- m20 -->
+        </test-method> <!-- viewsAndClickAssertion -->
       </class> <!-- com.PigeonHole.RegressionScripts.PigeonHole_QA_Test -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
