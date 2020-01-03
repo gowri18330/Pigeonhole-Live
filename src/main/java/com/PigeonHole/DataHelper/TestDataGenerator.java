@@ -28,4 +28,6 @@ public class TestDataGenerator {
 	// faker.lorem().sentence(35).replace('.', 'a');
 	// public static String randomCompany = faker.company().name();
 	public static String randomTestName = faker.name().name();
+	public static  String randomEventName = faker.book().title().replaceAll("'", "1");
+	public static String randomSessionName = faker.book().title().replaceAll("'", "1");
 }
