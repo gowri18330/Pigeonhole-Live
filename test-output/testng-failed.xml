@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.PigeonHole.RegressionScripts.PigeonHole_MultipleChoicePoll_Test">
+        <methods>
+          <include name="appLaunch"/>
+          <include name="m16"/>
+          <include name="m14"/>
+          <include name="m17"/>
+          <include name="quitDriversession"/>
+          <include name="m15"/>
+          <include name="m18"/>
+          <include name="m19"/>
+          <include name="m7"/>
+          <include name="m8"/>
+          <include name="m5"/>
+          <include name="m12"/>
+          <include name="m6"/>
+          <include name="m10"/>
+          <include name="m13"/>
+          <include name="m9"/>
+          <include name="m11"/>
+          <include name="m3"/>
+          <include name="m4"/>
+        </methods>
+      </class> <!-- com.PigeonHole.RegressionScripts.PigeonHole_MultipleChoicePoll_Test -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
