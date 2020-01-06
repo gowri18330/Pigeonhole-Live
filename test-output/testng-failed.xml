@@ -3,20 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.PigeonHole.RegressionScripts.PigeonHole_QA_Test">
+      <class name="com.PigeonHole.RegressionScripts.PigeonHole_CreateQuizSessions">
         <methods>
-          <include name="seeAnswered"/>
-          <include name="shouldNotSeeThisQuestionAnymore"/>
-          <include name="QuestionFiltering"/>
-          <include name="shouldSeeTheQuestionInAWA"/>
-          <include name="shouldSeeTheQuestionInProjectorPanel"/>
-          <include name="clickClose"/>
-          <include name="inProjectorPanelShouldSeeTheQuestionYouHaveJustApproved"/>
-          <include name="init"/>
-          <include name="viewsAndClickAssertion"/>
-          <include name="questionPendingApproval_GreenText"/>
+          <include name="seeOneParticipant"/>
+          <include name="appLaunch"/>
+          <include name="createSessionWithPollQuestions"/>
+          <include name="quitDriversession"/>
         </methods>
-      </class> <!-- com.PigeonHole.RegressionScripts.PigeonHole_QA_Test -->
+      </class> <!-- com.PigeonHole.RegressionScripts.PigeonHole_CreateQuizSessions -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
