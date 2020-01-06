@@ -18,7 +18,7 @@ import com.PigeonHole.Pages.PigeonHole_AudienceWebAppPage;
 import com.PigeonHole.Pages.PigeonHole_DashboardPage;
 import com.PigeonHole.Pages.PigeonHole_ProjectorPanelPage;
 import com.PigeonHole.Pages.PigeonHole_RunEventsPage;
-import com.PigeonHole.pageFactoryInitilization.PageElementsIntialization;
+import com.PigeonHole.pageFactoryInitilization.PageElementsInitialization;
 import com.github.javafaker.Faker;
 
 public class PigeonHole_MultipleChoicePoll_Test extends GenericMethods {
@@ -29,7 +29,7 @@ public class PigeonHole_MultipleChoicePoll_Test extends GenericMethods {
 	public PigeonHole_AdminPanelPage adminPanelPage;
 	public PigeonHole_ProjectorPanelPage projectorPanelPage;
 	public PigeonHole_AgendaPage agendaPage;
-	public PageElementsIntialization elementsInitialization;
+	public PageElementsInitialization elementsInitialization;
 
 	Faker faker = new Faker();
 	// TestData
@@ -67,7 +67,7 @@ public class PigeonHole_MultipleChoicePoll_Test extends GenericMethods {
 		adminPanelPage = new PigeonHole_AdminPanelPage();
 		projectorPanelPage = new PigeonHole_ProjectorPanelPage();
 		agendaPage = new PigeonHole_AgendaPage();
-		elementsInitialization = new PageElementsIntialization();
+		elementsInitialization = new PageElementsInitialization();
 
 		elementsInitialization.dashBoardPageObjectory();
 		elementsInitialization.adminPannelPageObjectory();

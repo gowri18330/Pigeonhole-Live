@@ -49,20 +49,6 @@ public class PigeonHole_ProjectorPanelPage extends GenericMethods {
 	@FindBy(how = How.XPATH, using = "(//div[@class=\"insight-data-count\"])[2]")
 	public static WebElement verifyTotalVotes;
 	
-	//-------------
-	
-//	@FindBy(how = How.XPATH, using = "(//span[contains(text(),\"Technology and Corporate Communications\")])[4]")
-//	public static WebElement eventName;
-//	
-//	@FindBy(how = How.CSS, using = ".qna-content")   
-//	public static WebElement questionName; 
-//	
-//	@FindBy(how = How.XPATH, using = "(//div[@class=\"qna-content\"])[2]")
-//	public static WebElement secondQuestion;
-//	
-//	@FindBy(how = How.XPATH, using = "//div[@class=\"active-question-text\"]")
-//	public static WebElement activeQuestion;
-	
 	@FindBy(how = How.XPATH, using = "//div[@class='sl-screen-type on-going']//span[@class='icon icon-poll-quiz']")          
 	public static WebElement pollQuizIcon;
 
@@ -73,28 +59,16 @@ public class PigeonHole_ProjectorPanelPage extends GenericMethods {
 	public static WebElement participentCountField;
 	
 	@FindBy(how = How.XPATH, using = "//div[@class='score']//span[@class='value']")  
-	@CacheLookup
 	public static WebElement projectorPannelScoreValueField;
 	
 	@FindBy(how = How.XPATH, using = "//div[@class='score']//span[@class='total']")  
-	@CacheLookup
 	public static WebElement projectorPannelTotalScoreField;
 	
 	@FindBy(how = How.XPATH, using = "//div[@class='first-rank-bottom']//span[@class='value']")  
-	@CacheLookup
 	public static WebElement projectorFinalScoreField;
 	
 	@FindBy(how = How.XPATH, using = "//div[@class='first-rank-bottom']//span[@class='total']")  
-	@CacheLookup
 	public static WebElement projectorFinalTotalScoreField;
-	
-	//---------------
-
-	// ------------------
-	
-//	public void clickEvent() {
-//		eventName.click();
-//	}
 	
 	public boolean validateSession(String sessionName) throws Throwable
 	{
@@ -131,7 +105,6 @@ public class PigeonHole_ProjectorPanelPage extends GenericMethods {
 		return score;
 	}
 	
-	//--------------------------
 	public void clickEvent() {
 		eventName.click();
 	}

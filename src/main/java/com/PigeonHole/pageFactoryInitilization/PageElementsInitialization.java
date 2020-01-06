@@ -10,7 +10,7 @@ import com.PigeonHole.Pages.PigeonHole_DashboardPage;
 import com.PigeonHole.Pages.PigeonHole_ProjectorPanelPage;
 import com.PigeonHole.Pages.PigeonHole_RunEventsPage;
 
-public class PageElementsIntialization extends GenericMethods {
+public class PageElementsInitialization extends GenericMethods {
 	public void dashBoardPageObjectory() {
 
 		PageFactory.initElements(driver, PigeonHole_DashboardPage.class);

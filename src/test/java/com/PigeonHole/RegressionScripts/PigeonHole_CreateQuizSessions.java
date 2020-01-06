@@ -20,7 +20,7 @@ import com.PigeonHole.Pages.PigeonHole_DashboardPage;
 import com.PigeonHole.Pages.PigeonHole_ProjectorPanelPage;
 import com.PigeonHole.Pages.PigeonHole_RunEventsPage;
 import com.PigeonHole.Utilities.PropertyUtil;
-import com.PigeonHole.pageFactoryInitilization.PageElementsIntialization;
+import com.PigeonHole.pageFactoryInitilization.PageElementsInitialization;
 
 public class PigeonHole_CreateQuizSessions {
 	
@@ -30,7 +30,7 @@ public class PigeonHole_CreateQuizSessions {
 	public PigeonHole_AdminPanelPage adminPanelPage;
 	public PigeonHole_ProjectorPanelPage projectorPanelPage;
 	public PigeonHole_AgendaPage agendaPage;
-	public PageElementsIntialization elementsInitialization;
+	public PageElementsInitialization elementsInitialization;
 	
 	public String question= "Among all these fruits, which is the fruit that your doctor would recommend you to eat once every day for the rest of your life?”";
 	public String answerOne = "orange";
@@ -68,7 +68,7 @@ public class PigeonHole_CreateQuizSessions {
 		adminPanelPage = new PigeonHole_AdminPanelPage();
 		projectorPanelPage = new PigeonHole_ProjectorPanelPage();
 		agendaPage = new PigeonHole_AgendaPage();
-		elementsInitialization =new PageElementsIntialization();
+		elementsInitialization =new PageElementsInitialization();
 		
 		elementsInitialization.dashBoardPageObjectory();
 		elementsInitialization.adminPannelPageObjectory();
@@ -93,7 +93,7 @@ public class PigeonHole_CreateQuizSessions {
 	{
 		GenericMethods.waitForElementClickable(dashboardPage.addSessionButton);
 		dashboardPage.addNewSession(sessionName);
-		GenericMethods.sychronizationinterval();
+		GenericMethods.sychronizationinterval();                
 		dashboardPage.addPollQuestion(question,answerOne,answerTwo);
 		GenericMethods.sychronizationinterval();
 		dashboardPage.addAnswerOptionsWithImages(questionSecond, answerOne, answerTwo, answerThree,time);
@@ -104,7 +104,7 @@ public class PigeonHole_CreateQuizSessions {
 	
 	//  Click Edit Next Arrow, and start the session, click on the “Run links” button select AWA.
 	@Test(priority =3)
-	public void met3() throws Throwable
+	public void startSession() throws Throwable
 	{
 		GenericMethods.sychronizationinterval();
 		dashboardPage.startSession();
@@ -121,7 +121,7 @@ public class PigeonHole_CreateQuizSessions {
 	// Return to workspace. Click on the “Run links” button select Admin Panel.
 	//  A new tab will open check if the session name shows up and if the icon is in orange.
 	@Test(priority =4)
-	public void met4() throws Throwable
+	public void selectAdminPanel() throws Throwable
 	{
 		GenericMethods.switchToNewWindow(1);
 		GenericMethods.sychronizationinterval();
@@ -140,7 +140,7 @@ public class PigeonHole_CreateQuizSessions {
 	// Return to workspace. Click on the “Run links” button select Projector Panel.
 	// A new window will be open, check if the session name shows up and if the icon is in orange.
 	@Test(priority =5)
-	public void met5() throws Throwable
+	public void selectProjectorPanel() throws Throwable
 	{
 		GenericMethods.switchToNewWindow(1);
 		GenericMethods.sychronizationinterval();
@@ -156,8 +156,8 @@ public class PigeonHole_CreateQuizSessions {
 	}
 	
 	// Switch tab to awa, click “cast your vote”, Switch tab to Admin panel, You should see 1 participant.
-	@Test(priority =5)
-	public void met6() throws Throwable
+	@Test(priority =6)
+	public void clickCastYourVote() throws Throwable
 	{
 		GenericMethods.sychronizationinterval();
 		GenericMethods.switchToNewWindow(2);
@@ -174,8 +174,8 @@ public class PigeonHole_CreateQuizSessions {
 	}
 	
 	// Switch tab to Projector panel, You should see 1 participant
-	@Test(priority =6)
-	public void met7() throws Throwable
+	@Test(priority =7)
+	public void seeOneParticipant() throws Throwable
 	{	
 		GenericMethods.switchToNewWindow(4);
 		GenericMethods.sychronizationinterval();
@@ -186,8 +186,8 @@ public class PigeonHole_CreateQuizSessions {
 	}
 	
 	// Switch to admin panel, click start quiz, Should see a countdown 
-	@Test(priority =7)
-	public void met8() throws Throwable
+	@Test(priority =8)
+	public void shouldSeeCountdown() throws Throwable
 	{
 		GenericMethods.sychronizationinterval();
 		GenericMethods.switchToNewWindow(3);
@@ -200,8 +200,8 @@ public class PigeonHole_CreateQuizSessions {
 	
 	// Switch to awa, wait for the countdown to finish then click on answer option 1.
 	// click on the uploaded image to enlarge it. Click cross to close the image.
-	@Test(priority =8)
-	public void met9() throws Throwable
+	@Test(priority =9)
+	public void imageToEnlarge() throws Throwable
 	{
 		GenericMethods.switchToNewWindow(2);
 		Thread.sleep(5000); //required
@@ -215,8 +215,8 @@ public class PigeonHole_CreateQuizSessions {
 	// wait till you see the leaderboard screen for question 1 of 2 then click pause, you should see the resume button.
 	// In the admin panel, check the score, is it 1/1
 
-	@Test(priority =9)
-	public void met10() throws Throwable
+	@Test(priority =10)
+	public void leaderboardScreen() throws Throwable
 	{
 		GenericMethods.switchToNewWindow(3);
 		Thread.sleep(22000); //re
@@ -233,8 +233,8 @@ public class PigeonHole_CreateQuizSessions {
 	
 	// Switch to projector panel, you should also see the leaderboard screen.
 	// In the projector panel, check the score, is it 1/1.
-	@Test(priority =10)
-	public void met11() throws Throwable
+	@Test(priority =11)
+	public void checkTheScore() throws Throwable
 	{
 		GenericMethods.switchToNewWindow(4);
 		GenericMethods.sychronizationinterval();
@@ -244,8 +244,8 @@ public class PigeonHole_CreateQuizSessions {
 	}
 	
 	// Switch to AWA, you should see “Quiz paused!”.
-	@Test(priority =11)
-	public void met12() throws Throwable
+	@Test(priority =12)
+	public void quizPaused() throws Throwable
 	{
 		GenericMethods.switchToNewWindow(2);
 		GenericMethods.sychronizationinterval();
@@ -253,8 +253,8 @@ public class PigeonHole_CreateQuizSessions {
 	}
 	
 	// Switch to Admin Panel, click the Resume button.
-	@Test(priority =12)
-	public void met13() throws Throwable
+	@Test(priority =13)
+	public void clickResumeButton() throws Throwable
 	{
 		GenericMethods.switchToNewWindow(3);
 		GenericMethods.sychronizationinterval();
@@ -266,8 +266,8 @@ public class PigeonHole_CreateQuizSessions {
 	// select the last option apple.
 	//  wait for the answer to reveal. The next screen, you should see: “Sorry! You got the wrong answer!”.
 	// check to see if you have a score ½.
-	@Test(priority =13)
-	public void met14() throws Throwable
+	@Test(priority =14)
+	public void shouldSeeWellDoneAndSorryText() throws Throwable
 	{		
 		GenericMethods.switchToNewWindow(2);
 		Thread.sleep(13000);
@@ -278,8 +278,8 @@ public class PigeonHole_CreateQuizSessions {
 	}
 	
 	// Switch to admin panel, you should see score ½
-	@Test(priority =14)
-	public void met15() throws Throwable
+	@Test(priority =15)
+	public void seeScoreInAdminPanel() throws Throwable
 	{
 		GenericMethods.switchToNewWindow(3);
 		Thread.sleep(7000);
@@ -289,8 +289,8 @@ public class PigeonHole_CreateQuizSessions {
 	}
 	
 	// Switch to projector panel, you should see score ½.
-	@Test(priority =15)
-	public void met16() throws Throwable
+	@Test(priority =16)
+	public void seeScoreInProjectorPanel() throws Throwable
 	{
 		GenericMethods.switchToNewWindow(4);
 		Thread.sleep(7000);
